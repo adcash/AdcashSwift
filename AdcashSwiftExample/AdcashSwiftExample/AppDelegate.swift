@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  AdcashSwiftExample
 //
-//  Created by user on 4/13/17.
+//  Created by Mert Celik on 4/13/17.
 //  Copyright © 2017 adcash. All rights reserved.
 //
 

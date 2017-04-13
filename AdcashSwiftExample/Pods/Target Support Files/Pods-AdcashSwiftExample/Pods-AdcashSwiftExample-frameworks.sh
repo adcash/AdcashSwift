@@ -89,11 +89,11 @@ strip_invalid_archs() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_framework "${PODS_ROOT}/../../../../Release/AdcashSwift/AdcashSwift.framework"
+  install_framework "${PODS_ROOT}/AdcashSwift/AdcashSwift.framework"
   install_framework "$BUILT_PRODUCTS_DIR/Alamofire/Alamofire.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_framework "${PODS_ROOT}/../../../../Release/AdcashSwift/AdcashSwift.framework"
+  install_framework "${PODS_ROOT}/AdcashSwift/AdcashSwift.framework"
   install_framework "$BUILT_PRODUCTS_DIR/Alamofire/Alamofire.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then
