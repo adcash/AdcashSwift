@@ -1,0 +1,6 @@
+framework module Pods_AdcashSwiftExample {
+  umbrella header "Pods-AdcashSwiftExample-umbrella.h"
+
+  export *
+  module * { export * }
+}
