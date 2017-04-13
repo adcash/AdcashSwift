@@ -78,6 +78,7 @@
 		E2F9510473F6FFD7AA66524DB16C2263 /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
 		E5A8AA5F9EDED0A0BDDE7E830BF4AEE0 /* NetworkReachabilityManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkReachabilityManager.swift; path = Source/NetworkReachabilityManager.swift; sourceTree = "<group>"; };
 		E6F34CCF86067ED508C12C676E298C69 /* Alamofire.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.xcconfig; sourceTree = "<group>"; };
+		E996FD81BFC912D4B5DBE03C5D03C76B /* AdcashSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AdcashSwift.framework; sourceTree = "<group>"; };
 		F0899F11C1ED875407B3C90EA06293B8 /* Pods-AdcashSwiftExample-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AdcashSwiftExample-umbrella.h"; sourceTree = "<group>"; };
 		F1CAF0724579408DD407ED82530AA629 /* Pods-AdcashSwiftExample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AdcashSwiftExample-acknowledgements.markdown"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -102,6 +103,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		02A378FC4B2D3E318F735449288A1FB3 /* AdcashSwift */ = {
+			isa = PBXGroup;
+			children = (
+				5F715A34BD3A48E54FCA9D6D7C4597AF /* Frameworks */,
+			);
+			name = AdcashSwift;
+			path = /Users/user/Desktop/Release/AdcashSwift;
+			sourceTree = "<absolute>";
+		};
 		200D10EB20F0397D47F022B50CF0433F /* Alamofire */ = {
 			isa = PBXGroup;
 			children = (
@@ -150,10 +160,19 @@
 			path = "../Target Support Files/Alamofire";
 			sourceTree = "<group>";
 		};
+		5F715A34BD3A48E54FCA9D6D7C4597AF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E996FD81BFC912D4B5DBE03C5D03C76B /* AdcashSwift.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				C8201502A75A4DD174CE6C442113543A /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				35F128EB69B6F7FB7DA93BBF6C130FAE /* Pods */,
 				8F7F60BA7669D4C413F3CCAEE52FFD3C /* Products */,
@@ -202,6 +221,14 @@
 				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C8201502A75A4DD174CE6C442113543A /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				02A378FC4B2D3E318F735449288A1FB3 /* AdcashSwift */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {

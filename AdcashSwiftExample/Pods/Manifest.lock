@@ -1,12 +1,19 @@
 PODS:
+  - AdcashSwift (1.0.0)
   - Alamofire (4.4.0)
 
 DEPENDENCIES:
+  - AdcashSwift (from `/Users/user/Desktop/Release/AdcashSwift/`)
   - Alamofire (~> 4.4)
 
+EXTERNAL SOURCES:
+  AdcashSwift:
+    :path: /Users/user/Desktop/Release/AdcashSwift/
+
 SPEC CHECKSUMS:
+  AdcashSwift: feb1362b798ba771f81886528e1ccbe7645af73a
   Alamofire: dc44b1600b800eb63da6a19039a0083d62a6a62d
 
-PODFILE CHECKSUM: 528366eefa986ab19a79dc99e9e764350e639258
+PODFILE CHECKSUM: ca234b161053c3a6a86853ab7b23ec9c0a03a034
 
 COCOAPODS: 1.2.1
