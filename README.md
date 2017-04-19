@@ -48,7 +48,7 @@ $ pod install
 ```
 
 ## **Manual**
-1. Download the [Adcash Swift SDK]() and unzip it.
+1. Download the [Adcash Swift SDK](https://github.com/adcash/AdcashSwift/raw/master/AdcashSwift.framework.zip) and unzip it.
 2. Right click on your project in the **Project Navigator** menu and select **Add Files to "name-of-your-project"**:
 ![Alt text](http://i2.wp.com/104.197.107.57/wp-content/uploads/2015/08/install-instructions-2.png)
 3. Select the AdcashSwift.framework you just unzipped and press **Add**. Make sure you choose **Copy items if needed**.
